@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wallmory – Datenschutz / Privacy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #3D3027; --muted: #6C5C52; --bg: #FFF8F5; --accent: #88522C; --card: #FFF1EA; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --fg: #F8E1D5; --muted: #BBA79C; --bg: #130D09; --accent: #F5BA94; --card: #1A120D; } }
+  :root[data-theme="dark"] { --fg: #F8E1D5; --muted: #BBA79C; --bg: #130D09; --accent: #F5BA94; --card: #1A120D; }
+  /* Inside the app (data-lang set) only the matching language is shown */
+  :root[data-lang] nav, :root[data-lang] hr { display: none; }
+  :root[data-lang="de"] #en, :root[data-lang="en"] #de { display: none; }
+  :root[data-lang] main { padding-top: 8px; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2rem; color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 1.5rem; }
+  .summary { background: var(--card); border-radius: 16px; padding: 16px 20px; }
+  a { color: var(--accent); }
+  nav a { margin-right: 16px; }
+  hr { border: none; border-top: 1px solid var(--muted); opacity: .3; margin: 48px 0; }
+  code { font-size: .95em; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#de">Deutsch</a><a href="#en">English</a></nav>
+
+<section id="de" lang="de">
+<h1>Datenschutzerklärung für Wallmory</h1>
+<p class="meta">Stand: 8. Oktober 2026</p>
+
+<div class="summary">
+<p><strong>Kurz gesagt:</strong> Wallmory erhebt keine personenbezogenen Daten. Die App hat keine Internet-Berechtigung, enthält keine Werbung, keine Analyse- oder Tracking-Dienste und kein Nutzerkonto. Deine Fotos und Einstellungen bleiben auf deinem Gerät.</p>
+</div>
+
+<h2>1. Verantwortlicher</h2>
+<p>Artem Bruner<br>E-Mail: <a href="mailto:artembruner@gmail.com">artembruner@gmail.com</a></p>
+
+<h2>2. Welche Daten die App auf deinem Gerät verarbeitet</h2>
+<ul>
+  <li><strong>Fotos und Ordner, die du freigibst.</strong> Du wählst sie über die Dateiauswahl von Android aus. Wallmory liest sie nur, um sie als Hintergrund anzuzeigen. Es legt keine Kopien an und lädt nichts hoch.</li>
+  <li><strong>Aufnahmedaten der Fotos.</strong> Für „Heute vor X Jahren“ liest Wallmory das Aufnahmedatum aus den Bilddaten (EXIF) oder dem Dateinamen und speichert es in einem lokalen Zwischenspeicher.</li>
+  <li><strong>Einstellungen</strong> und Verweise auf die ausgewählten Quellen.</li>
+  <li><strong>Ein Fehlerprotokoll</strong> mit Zeitpunkten der Bildwechsel und Fehlermeldungen (höchstens 1 MB). Du kannst es in der App jederzeit löschen.</li>
+</ul>
+<p>Diese Daten verlassen dein Gerät nicht. Sie sind nicht Teil der Android-Cloud-Sicherung und werden nicht auf ein neues Gerät übertragen. Sie werden gelöscht, wenn du die App deinstallierst oder ihre Daten in den Android-Einstellungen löschst.</p>
+
+<h2>3. Fehlerprotokoll senden (freiwillig)</h2>
+<p>Nur wenn du in der App unter „Fehlerprotokoll“ auf „Logs an Entwickler senden“ tippst, öffnet Wallmory deine E-Mail-App mit einem vorausgefüllten Entwurf. Er enthält Gerätemodell, Android-Version, App-Version und das Fehlerprotokoll, das auch Dateinamen deiner Bilder enthalten kann. Du kannst den Entwurf prüfen, ändern oder verwerfen. Versendet wird er von deiner E-Mail-App, nicht von Wallmory.</p>
+<p>Wenn du die E-Mail sendest, verarbeite ich sie ausschließlich, um dein Anliegen zu bearbeiten (Art. 6 Abs. 1 lit. b und f DSGVO), und lösche sie, sobald es erledigt ist, spätestens nach 12 Monaten. Mein Postfach wird bei Google (Gmail) geführt. Für den Versand gilt außerdem die Datenschutzerklärung deines E-Mail-Anbieters.</p>
+
+<h2>4. Berechtigungen</h2>
+<ul>
+  <li><code>SET_WALLPAPER</code>: um ein Bild als Hintergrund zu setzen.</li>
+  <li><code>WAKE_LOCK</code>: um den Prozessor für die Sekundenbruchteile eines Bildwechsels nach dem Sperren wach zu halten.</li>
+</ul>
+<p>Wallmory hat keine Berechtigung für Internet, Standort, Kontakte, Kamera, Mikrofon oder den Zugriff auf alle Medien.</p>
+
+<h2>5. Google Play</h2>
+<p>Wenn du Wallmory über Google Play installierst, verarbeitet Google dabei Daten gemäß seiner eigenen <a href="https://policies.google.com/privacy">Datenschutzerklärung</a>. Ich erhalte von Google nur zusammengefasste Statistiken, etwa Installationszahlen, und Absturzberichte, sofern du in Android der Weitergabe von Diagnosedaten an Entwickler zugestimmt hast. Diese Berichte enthalten keine Fotos.</p>
+
+<h2>6. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO) sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Da die App selbst keine Daten erhebt, betreffen diese Rechte praktisch nur E-Mails, die du mir geschickt hast. Schreib mir dafür einfach an die oben genannte Adresse.</p>
+
+<h2>7. Kinder</h2>
+<p>Wallmory richtet sich nicht gezielt an Kinder unter 13 Jahren.</p>
+
+<h2>8. Änderungen</h2>
+<p>Wenn sich diese Erklärung ändert, veröffentliche ich die neue Fassung an dieser Stelle mit neuem Datum.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Privacy Policy for Wallmory</h1>
+<p class="meta">Last updated: October 8, 2026</p>
+
+<div class="summary">
+<p><strong>In short:</strong> Wallmory does not collect personal data. The app has no internet permission, no ads, no analytics or tracking, and no account. Your photos and settings stay on your device.</p>
+</div>
+
+<h2>1. Controller</h2>
+<p>Artem Bruner<br>Email: <a href="mailto:artembruner@gmail.com">artembruner@gmail.com</a></p>
+
+<h2>2. Data the app processes on your device</h2>
+<ul>
+  <li><strong>Photos and folders you grant access to</strong> through the Android file picker. Wallmory only reads them to show them as your wallpaper. It makes no copies and uploads nothing.</li>
+  <li><strong>Capture dates.</strong> For “On this day”, Wallmory reads a photo's capture date from its image data (EXIF) or its file name and keeps it in a local cache.</li>
+  <li><strong>Settings</strong> and references to the sources you selected.</li>
+  <li><strong>A debug log</strong> with the times of wallpaper changes and error messages (at most 1 MB). You can clear it in the app at any time.</li>
+</ul>
+<p>This data never leaves your device. It is excluded from Android cloud backup and device-to-device transfer, and it is deleted when you uninstall the app or clear its data in Android settings.</p>
+
+<h2>3. Sending the debug log (optional)</h2>
+<p>Only if you tap “Send logs to developer” under “Debug log”, Wallmory opens your email app with a pre-filled draft containing your device model, Android version, app version and the debug log, which can include file names of your images. You can review, edit or discard the draft. Your email app sends it, not Wallmory.</p>
+<p>If you send it, I use the email solely to handle your request (Art. 6(1)(b) and (f) GDPR) and delete it once the request is resolved, at the latest after 12 months. My mailbox is hosted by Google (Gmail). Your email provider's privacy policy also applies to sending it.</p>
+
+<h2>4. Permissions</h2>
+<ul>
+  <li><code>SET_WALLPAPER</code>: to set an image as your wallpaper.</li>
+  <li><code>WAKE_LOCK</code>: to keep the processor awake for the fraction of a second a wallpaper change takes after you lock the phone.</li>
+</ul>
+<p>Wallmory has no permission for internet, location, contacts, camera, microphone or access to all media.</p>
+
+<h2>5. Google Play</h2>
+<p>When you install Wallmory from Google Play, Google processes data under its own <a href="https://policies.google.com/privacy">privacy policy</a>. I only receive aggregated statistics from Google, such as install counts, and crash reports if you allowed Android to share diagnostics with developers. These reports contain no photos.</p>
+
+<h2>6. Your rights</h2>
+<p>You have the right to access, rectification, erasure, restriction of processing, data portability and objection (Art. 15–21 GDPR), and the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR). Since the app itself collects no data, these rights in practice only concern emails you sent me. Just write to the address above.</p>
+
+<h2>7. Children</h2>
+<p>Wallmory is not directed at children under 13.</p>
+
+<h2>8. Changes</h2>
+<p>If this policy changes, I will publish the new version here with a new date.</p>
+</section>
+</main>
+</body>
+</html>
